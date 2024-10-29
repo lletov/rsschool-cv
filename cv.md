@@ -16,6 +16,20 @@ I am passionate about frontend development, I love unusual and beautiful interfa
 - Git
 - Figma
 ## Code
+```
+function bmi(weight, height) {
+  const bmi = weight/height**2;
+  let answer;
+  bmi <= 18.5 
+    ? answer = "Underweight" 
+    : bmi <= 25.0 
+      ? answer = "Normal"
+      : bmi <= 30.0 
+        ? answer = "Overweight"
+        : answer = "Obese"
+  return answer
+}
+```
 ## Experience
 ## Education
 ## Languages
