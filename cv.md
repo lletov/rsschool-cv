@@ -10,6 +10,11 @@
 ## About
 I am passionate about frontend development, I love unusual and beautiful interfaces, and I am also interested in design. In my free time I like to ride a scooter.
 ## Skills
+- HTML
+- CSS
+- JS
+- Git
+- Figma
 ## Code
 ## Experience
 ## Education
