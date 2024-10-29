@@ -7,14 +7,17 @@
 - **GitHub:** [lletov](https://github.com/lletov/)
 
 - **Discord:** Dmitry (@lletov)
+
 ## About
 I am passionate about frontend development, I love unusual and beautiful interfaces, and I am also interested in design. In my free time I like to ride a scooter.
+
 ## Skills
 - HTML
 - CSS
 - JS
 - Git
 - Figma
+
 ## Code
 ```
 function bmi(weight, height) {
@@ -36,8 +39,7 @@ function bmi(weight, height) {
     - CS50 Lectures
 - University
     - Moscow Power Engineering Institute, bachelor's degree
+
 ## Languages
-Language   | Level
------------|:-------: 
-Russian    |   Native 
-English    |   B1 
+- Russian: native
+- English: B2
