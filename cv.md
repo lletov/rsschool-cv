@@ -8,6 +8,7 @@
 
 - **Discord:** Dmitry (@lletov)
 ## About
+I am passionate about frontend development, I love unusual and beautiful interfaces, and I am also interested in design. In my free time I like to ride a scooter.
 ## Skills
 ## Code
 ## Experience
