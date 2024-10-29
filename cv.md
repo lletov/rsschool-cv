@@ -32,4 +32,12 @@ function bmi(weight, height) {
 ```
 ## Experience
 ## Education
+- Courses
+    - CS50 Lectures
+- University
+    - Moscow Power Engineering Institute, bachelor's degree
 ## Languages
+Language   | Level
+-----------|:-------: 
+Russian    |   Native 
+English    |   B1 
