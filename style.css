@@ -12,3 +12,6 @@ a {
 a:hover {
     color: #03F;
 }
+p, li{
+    line-height: 1.5em;
+}
