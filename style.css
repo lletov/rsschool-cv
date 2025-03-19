@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-*{
+:root {
+    --main-dark: #222;
+    --red: #eb1c1c;
+    --light-red: #ffecec;
+}
+* {
     margin: 0;
-    padding: 0; 
+    padding: 0;
+    box-sizing: border-box;
 }
 body, form {
     font-family: 'Inter', sans-serif;
@@ -39,22 +45,26 @@ main {
     gap: 54px;
 }
 ul {
-    list-style-position: inside;
-    padding-left: 24px;
+    list-style-position: outside;
+    padding-left: 36px;
 }
 header {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 54px
+}
+.rounded {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+    border-radius: 50%;
 }
 .avatar {
     width: 80px;
     height: 80px;
-    border: solid 1px black;
-    border-radius: 200px;
-    align-content: center;
-    text-align: center;
     font-size: 44px;
 }
 .badge {
@@ -62,4 +72,34 @@ header {
     flex-direction: row;
     align-items: center;
     gap: 24px;
+}
+.contacts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+.contacts a {
+    border-radius: 200px;
+}
+.contacts a div {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+}
+.contacts a div:hover {
+    background-color: blue;
+}
+.contacts a div img {
+    height: 16px;
+}
+.contacts button {
+    background-color: var(--light-red);
+    border: solid 1px var(--red);
+    border-radius: 20px;
+    color: var(--red); 
+    padding: 0px 20px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 1.0em;
 }
