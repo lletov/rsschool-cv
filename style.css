@@ -11,7 +11,7 @@ body, form {
     max-width: 800px;
     margin: auto;
     border: 1px solid black;
-    padding: 36px 56px;
+    padding: 36px 0px;
 }
 a {
     color: #039;
@@ -21,6 +21,9 @@ a:hover {
 }
 p, li{
     line-height: 1.6em;
+}
+h1 {
+    font-size: 1.6em;
 }
 h2 {
     font-size: 1.2em;
@@ -36,11 +39,27 @@ main {
     gap: 54px;
 }
 ul {
-    list-style-position: inside
+    list-style-position: inside;
+    padding-left: 24px;
 }
 header {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+.avatar {
+    width: 80px;
+    height: 80px;
+    border: solid 1px black;
+    border-radius: 200px;
+    align-content: center;
+    text-align: center;
+    font-size: 44px;
+}
+.badge {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
 }
