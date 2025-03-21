@@ -1,7 +1,7 @@
 console.log('main.js conected');
 
 const themeBtn = document.querySelector('.rounded.theme');
-const themeIcon = themeBtn.querySelector("img");
+const themeIcon = themeBtn.querySelector('img');
 
 themeBtn.addEventListener('click', () => {
     document.body.classList.toggle("dark-theme");
