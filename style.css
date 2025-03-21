@@ -113,6 +113,15 @@ header {
 .contacts button:hover {
     cursor: pointer;
 }
+.theme {
+    width: 40px;
+    height: 40px;
+    border: solid 1px var(--dark-gray);
+}
+.theme img {
+    height: 16px;
+    filter: brightness(0) saturate(100%) invert(56%) sepia(2%) saturate(8%) hue-rotate(340deg) brightness(90%) contrast(86%);
+}
 
 @media (max-width: 599px) {
     body {
