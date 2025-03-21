@@ -2,10 +2,12 @@
 
 :root {
     --main-dark: #222;
+    --main-dark-hover: #6b6b6b;
     --red: #eb1c1c;
     --light-red: #ffecec;
     --light-gray: #f1f1f1;
     --dark-gray: #808080;
+    --hover-transition: 0.3s;
 }
 * {
     margin: 0;
@@ -21,10 +23,10 @@ body, form {
     padding: 36px 12px;
 }
 a {
-    color: #039;
+    color: var(--main-dark)
 }
 a:hover {
-    color: #03F;
+    color: var(--main-dark);
 }
 p, li{
     line-height: 1.6em;
@@ -89,10 +91,11 @@ header {
 .contacts a div {
     width: 40px;
     height: 40px;
-    background-color: black;
+    background-color: var(--main-dark);
+    transition: var(--hover-transition);
 }
 .contacts a div:hover {
-    background-color: blue;
+    transition: var(--hover-transition);
 }
 .contacts a div img {
     height: 16px;
@@ -106,6 +109,9 @@ header {
     height: 40px;
     font-weight: 400;
     font-size: 1.0em;
+}
+.contacts button:hover {
+    cursor: pointer;
 }
 
 @media (max-width: 599px) {
