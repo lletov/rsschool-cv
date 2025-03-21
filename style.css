@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 :root {
+    --main-white: #fff;
     --main-dark: #222;
     --main-dark-hover: #6b6b6b;
     --red: #eb1c1c;
     --light-red: #ffecec;
+    --light-red-dark-theme: #ffdddd;
     --light-gray: #f1f1f1;
     --dark-gray: #808080;
     --hover-transition: 0.3s;
+    --light-gray-filter: brightness(0) saturate(100%) invert(99%) sepia(0%) saturate(373%) hue-rotate(62deg) brightness(116%) contrast(89%);
+    --dark-gray-filter: brightness(0) saturate(100%) invert(56%) sepia(2%) saturate(8%) hue-rotate(340deg) brightness(90%) contrast(86%);
+    --dark-filter: brightness(0) saturate(100%) invert(13%) sepia(12%) saturate(0%) hue-rotate(195deg) brightness(101%) contrast(101%);
 }
 * {
     margin: 0;
@@ -21,6 +26,7 @@ body, form {
     max-width: 800px;
     margin: auto;
     padding: 36px 12px;
+    transition: var(--hover-transition);
 }
 a {
     color: var(--main-dark)
@@ -99,6 +105,14 @@ header {
 }
 .contacts a div img {
     height: 16px;
+    transition: var(--hover-transition);
+}
+body.dark-theme .contacts a div {
+    background-color: var(--main-white);
+}
+body.dark-theme .contacts a div img {
+    filter: var(--dark-filter);
+    transition: var(--hover-transition);
 }
 .contacts button {
     background-color: var(--light-red);
@@ -110,6 +124,9 @@ header {
     font-weight: 400;
     font-size: 1.0em;
 }
+body.dark-theme .contacts button {
+    background-color: var(--light-red-dark-theme);
+}
 .contacts button:hover {
     cursor: pointer;
 }
@@ -118,12 +135,28 @@ header {
     height: 40px;
     border: solid 1px var(--dark-gray);
 }
+.theme:hover {
+    cursor: pointer;
+}
 .theme img {
     height: 16px;
-    filter: brightness(0) saturate(100%) invert(56%) sepia(2%) saturate(8%) hue-rotate(340deg) brightness(90%) contrast(86%);
+    filter: var(--dark-gray-filter);
+    transition: var(--hover-transition);
+}
+body.dark-theme .theme {
+    border: solid 1px var(--light-gray);
+}
+body.dark-theme .theme img {
+    filter: var(--light-gray-filter);
+    transition: var(--hover-transition);
+}
+.dark-theme {
+    background-color: var(--main-dark);
+    color: var(--main-white);
+    transition: var(--hover-transition);
 }
 
-@media (max-width: 599px) {
+@media (max-width: 679px) {
     body {
         padding: 24px 12px;
     }
