@@ -97,23 +97,23 @@ header {
 .contacts a {
     border-radius: 200px;
 }
-.contacts a div {
+.contacts a address {
     width: 40px;
     height: 40px;
     background-color: var(--main-dark);
     transition: var(--hover-transition);
 }
-.contacts a div:hover {
+.contacts a address:hover {
     transition: var(--hover-transition);
 }
-.contacts a div img {
+.contacts a address img {
     height: 16px;
     transition: var(--hover-transition);
 }
-body.dark-theme .contacts a div {
+body.dark-theme .contacts a address {
     background-color: var(--main-white);
 }
-body.dark-theme .contacts a div img {
+body.dark-theme .contacts a address img {
     filter: var(--dark-filter);
     transition: var(--hover-transition);
 }
