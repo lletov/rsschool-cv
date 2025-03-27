@@ -19,13 +19,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    font-size: 62.5%;
+}
 body, form {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.6rem;
     max-width: 800px;
     margin: auto;
-    padding: 36px 12px;
+    padding: 3.6rem 1.2rem;
     transition: var(--hover-transition);
 }
 a {
