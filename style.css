@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 :root {
-    --main-white: #fff;
-    --main-dark: #222;
-    --main-dark-hover: #6b6b6b;
-    --red: #eb1c1c;
-    --light-red: #ffecec;
-    --light-red-dark-theme: #ffdddd;
-    --light-gray: #f1f1f1;
-    --dark-gray: #808080;
+    --main-white: hsl(0, 0%, 100%);
+    --main-dark: hsl(0, 0%, 13%);
+    --main-dark-hover: hsl(0, 0%, 42%);
+    --red: hsl(0, 84%, 51%);
+    --light-red: hsl(0, 100%, 96%);
+    --light-red-dark-theme: hsl(0, 100%, 93%);
+    --light-gray: hsl(0, 0%, 95%);
+    --dark-gray: hsl(0, 0%, 50%);
     --hover-transition: 0.3s;
     --light-gray-filter: brightness(0) saturate(100%) invert(99%) sepia(0%) saturate(373%) hue-rotate(62deg) brightness(116%) contrast(89%);
     --dark-gray-filter: brightness(0) saturate(100%) invert(56%) sepia(2%) saturate(8%) hue-rotate(340deg) brightness(90%) contrast(86%);
