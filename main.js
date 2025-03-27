@@ -1,4 +1,6 @@
-console.log('main.js conected');
+let devMode = false;
+
+devMode && console.log('main.js conected');
 
 const themeBtn = document.querySelector('.rounded.theme');
 const themeIcon = themeBtn.querySelector('img');
