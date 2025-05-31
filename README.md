@@ -1,6 +1,6 @@
-# Resume Project
+# About
 
-This is my personal resume project. It showcases my skills, experience in a structured and visually appealing format. The project serves as a digital resume, allowing easily access my professional background and accomplishments. It is designed to be lightweight, fast, and accessible from any device, ensuring an optimal user experience.
+My personal resume project, designed to showcase my skills and experience in a structured, visually appealing format. It serves as a digital CV, providing easy access to my professional background and accomplishments. The project is lightweight, fast, and accessible from any device, offering an optimal user experience. It was intentionally developed using core web technologies: Vanilla JavaScript + HTML5 + CSS3.
 
 ## 📌 Project Overview
 
@@ -10,14 +10,15 @@ This is my personal resume project. It showcases my skills, experience in a stru
 
 - Responsive design for seamless viewing on different devices
 - Clear and concise layout highlighting key skills and experience
+- Lightweight performance with no external frameworks
 
 ## 🛠️ Technologies Used
 
-- **HTML5** - For structuring content
-- **CSS3** - For styling and layout
-- **JavaScript** - For interactive elements
-- **Markdown** - For content formatting
-- **Figma** - For layout design
+- **HTML5** - Markup structure
+- **CSS3** - Styling and layout
+- **JavaScript** - Interactive functionality
+- **Markdown** - Content formatting (for documentation)
+- **Figma** - Design and layout planning
 
 ## 📬 Contact
 
