@@ -23,7 +23,7 @@ My personal resume project, designed to showcase my skills and experience in a s
 ## 📬 Contact
 
 Feel free to connect with me:
-- **GitHub:** [lletov](https://github.com/lletov)
+- **Email:** [lletov](mailto:dmitry2595@gmail.com)
 
 ---
 
